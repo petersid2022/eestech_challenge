@@ -8,14 +8,17 @@
 5. ```data/testSimulation.py```
 6. ```slam/```
 
-
 ## Διαφοροποιήσεις με το μοντέλο που μας δόθηκε:
 
-* Autotune
-* Transfer Learning
-* Fine Tuning
-* Callbacks
-* Image pre-processing (cropping the horizon)
+* Autotune,
+* Transfer Learning,
+* Fine Tuning,
+* Callbacks,
+* Image pre-processing (cropping the horizon),
 * Shell script που αντιστοιχίζει τα ονόματα των στροφών με τα δεδομένα του csv,
 * Python script που ταξινομεί το dataset, καθώς επίσης δημιουργεί το ```data.pny```,
-* [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) (WIP)
+* [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) (Work in progress)
+
+## YouTube
+* part 1: https://youtu.be/1eFeKOEHMSI
+* part 2: https://youtu.be/mKUwmGz7Ubc
