@@ -15,5 +15,4 @@
 * Image pre-processing (cropping the horizon)
 * Shell script που αντιστοιχίζει τα ονόματα των στροφών με τα δεδομένα του csv,
 * Python script που ταξινομεί το dataset, καθώς επίσης δημιουργεί το ```data.pny```,
-* [numba](https://numba.pydata.org/),
 * [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) (WIP)
