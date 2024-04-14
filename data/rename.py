@@ -5,19 +5,17 @@ import numpy as np
 from pandas import read_csv
 
 if __name__ == "__main__":
-    path = "./IMG"
+    folder_path = "./IMG"
 
-    for root, _, files in os.walk(path):
-        files_sorted = sorted(
-            files, key=lambda f: os.path.getmtime(os.path.join(root, f))
+    image_files = [f for f in os.listdir(folder_path) if f.endswith(".jpg")]
+
+    image_files.sort()
+
+    for i, filename in enumerate(image_files):
+        new_filename = str(i) + ".jpg"
+        os.rename(
+            os.path.join(folder_path, filename), os.path.join(folder_path, new_filename)
         )
-
-        for i, filename in enumerate(files_sorted, start=1):
-            current_file = os.path.join(root, filename)
-            new_file = os.path.join(root, str(i)) + ".jpg"
-
-            os.rename(current_file, new_file)
-            # print(new_file)
 
     columns = ["Center", "Left", "Right", "Steering", "Throttle", "Brake", "Speed"]
     data = read_csv("driving_log.csv", names=columns)
