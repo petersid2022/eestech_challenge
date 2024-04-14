@@ -3,7 +3,8 @@
 ## Table of contents
 1. ```data/IMG```
 2. ```data/data.npy```
-3. ```slam/```
+3. ```data/replace.py```
+4. ```slam/```
 
 
 ## Διαφοροποιήσεις με το μοντέλο που μας δόθηκε:
