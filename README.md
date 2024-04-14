@@ -4,7 +4,9 @@
 1. ```data/IMG```
 2. ```data/data.npy```
 3. ```data/replace.py```
-4. ```slam/```
+4. ```data/model.h7```
+5. ```data/testSimulation.py```
+6. ```slam/```
 
 
 ## Διαφοροποιήσεις με το μοντέλο που μας δόθηκε:
